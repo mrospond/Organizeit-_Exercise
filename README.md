@@ -20,3 +20,6 @@ Zaimplementuj metodę updateStatus() w klasie ReoccurringTask. Powinna ona zmien
   a) ACTIVE, jeśli trwający aktualnie dzień tygodnia ZNAJDUJE się w zbiorze daysOfWeek
   b) SCHEDULED, jeśli trwający aktualnie dzień tygodnia NIE ZNAJDUJE się w zbiorze daysOfWeek
 - jeśli obecna data jest po dacie końcowej zadania, to powinno mieć ono status FINISHED.
+
+## Zadanie 4
+Złośliwi programiści usunęli niektóre adnotacje z klasy SimpleTask. Napisz własną implementację wzorca Builder nie używając adnotacji lomboka.
