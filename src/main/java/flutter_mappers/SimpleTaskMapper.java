@@ -44,11 +44,13 @@ public class SimpleTaskMapper implements TaskMapper<SimpleTask> {
         });
         topic.setNotes(notes);
 
-        return SimpleTask.builder()
+        /* return SimpleTask.builder()
                 .title(title)
                 .topic(topic)
                 .date(date)
                 .status(status)
-                .build();
+                .build(); */
+        // TODO: 08.06.2022 Odkomentuj powyższy kod po zrobieniu zadania 4
+        return null;
     }
 }
