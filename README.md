@@ -9,7 +9,7 @@ Napisz testy jednostkowe dla utworzonej w ten sposób metody. Powinny one obejmo
 hint: Wykorzystaj metody assertEquals i assertThrows z biblioteki JUnit.
 
 ## Zadanie 2
-Utwórz metodę tłumaczącą obiekt typu Task na mapę, którą można przekazać Flutterowi. W tym celu w klasie SimpleTaskMapper dokończ implementację metody public Map<String,String> taskToMap(SimpleTask task) {}. Zwracana mapa ma zawierać pola takie jak: "type" ("simple"), "title", "topicName", "topicSubject", "date"(rrrr-MM-dd), "status"(jako 'int' <oczywiście nie dosłownie int, bo wartości w mapie są typu String> wg kolejności definicji w klasie TaskStatus). 
+Utwórz metodę tłumaczącą obiekt typu Task na mapę, którą można przekazać Flutterowi. W tym celu w klasie SimpleTaskMapper dokończ implementację metody public Map<String,String> taskToMap(SimpleTask task) {}. Zwracana mapa ma zawierać pola takie jak: "type" ("simple"), "title", "topicName", "topicSubject", "date"(rrrr-MM-dd), "status"("0", "1", "2" lub "3" wg kolejności definicji w klasie TaskStatus). 
 
 Możesz zweryfikować poprawność działania napisanej metody za pomocą testów (opcjonalne).
 
