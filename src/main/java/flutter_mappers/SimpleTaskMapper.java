@@ -14,7 +14,7 @@ import java.util.Map;
 public class SimpleTaskMapper implements TaskMapper<SimpleTask> {
     @Override
     public Map<String, String> taskToMap(SimpleTask task) {
-        // TODO: 08.06.2022 Zadanie 3
+        // TODO: 08.06.2022 Zadanie 2
         return null;
     }
 
