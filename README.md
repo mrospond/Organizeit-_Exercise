@@ -9,7 +9,9 @@ Napisz testy jednostkowe dla utworzonej w ten sposób metody. Powinny one obejmo
 hint: Wykorzystaj metody assertEquals i assertThrows z biblioteki JUnit.
 
 ## Zadanie 2
-Utwórz metodę tłumaczącą obiekt typu Task na mapę, którą można przekazać Flutterowi. W tym celu w klasie SimpleTaskMapper dokończ implementację metody public Map<String,String> taskToMap(SimpleTask task) {}. Zwracana mapa ma zawierać pola takie jak: "type" ("simple"), "title", "topicName", "topicSubject", "date"(rrrr-MM-dd), "status"(jako int wg kolejności definicji w klasie TaskStatus).
+Utwórz metodę tłumaczącą obiekt typu Task na mapę, którą można przekazać Flutterowi. W tym celu w klasie SimpleTaskMapper dokończ implementację metody public Map<String,String> taskToMap(SimpleTask task) {}. Zwracana mapa ma zawierać pola takie jak: "type" ("simple"), "title", "topicName", "topicSubject", "date"(rrrr-MM-dd), "status"(jako int wg kolejności definicji w klasie TaskStatus). 
+
+Możesz zweryfikować poprawność działania napisanej metody za pomocą testów (opcjonalne).
 
 hint: przydatna metoda w klasach enum: ordinal()
 
@@ -20,6 +22,8 @@ Zaimplementuj metodę updateStatus() w klasie ReoccurringTask. Powinna ona zmien
   a) ACTIVE, jeśli trwający aktualnie dzień tygodnia ZNAJDUJE się w zbiorze daysOfWeek
   b) SCHEDULED, jeśli trwający aktualnie dzień tygodnia NIE ZNAJDUJE się w zbiorze daysOfWeek
 - jeśli obecna data jest po dacie końcowej zadania, to powinno mieć ono status FINISHED.
+
+Możesz zweryfikować poprawność działania napisanej metody za pomocą testów (opcjonalne).
 
 ## Zadanie 4
 Złośliwi programiści usunęli kluczową adnotację z klasy SimpleTask. Napisz własną implementację wzorca Builder nie używając adnotacji lomboka.
