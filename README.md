@@ -17,11 +17,11 @@ hint: przydatna metoda w klasach enum: ordinal()
 
 ## Zadanie 3
 Zaimplementuj metodę updateStatus() w klasie ReoccurringTask. Powinna ona zmieniać status obiektu na podstawie obecnej daty w następujący sposób:
-- jeśli obecna data (LocalDate.now()) jest przed datą startową zadania, to powinno mieć ono status SCHEDULED
-- jeśli obecna data jest pomiędzy datą startową i datą końcową zadania, to powinno mieć ono status:
++ jeśli obecna data (LocalDate.now()) jest przed datą startową zadania, to powinno mieć ono status SCHEDULED
++ jeśli obecna data jest pomiędzy datą startową i datą końcową zadania, to powinno mieć ono status:
   a) ACTIVE, jeśli trwający aktualnie dzień tygodnia ZNAJDUJE się w zbiorze daysOfWeek
   b) SCHEDULED, jeśli trwający aktualnie dzień tygodnia NIE ZNAJDUJE się w zbiorze daysOfWeek
-- jeśli obecna data jest po dacie końcowej zadania, to powinno mieć ono status FINISHED.
++ jeśli obecna data jest po dacie końcowej zadania, to powinno mieć ono status FINISHED.
 
 Możesz zweryfikować poprawność działania napisanej metody za pomocą testów (opcjonalne).
 
