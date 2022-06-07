@@ -1,8 +1,8 @@
 # Organizeit-_Exercise
 ## Zadanie 1
-Zaimplementuj metodę updateNote() w klasie NotelistController. Metoda powinna przyjmować argumenty zdefiniowane przez interfejs (id notatki, którą zmieniamy, oraz nową notatkę, która zastąpi poprzednią). 'Nowa' notatka musi zachować swoje stare id.
+Zaimplementuj metodę updateNote() w klasie NotelistController. Metoda powinna przyjmować argumenty zdefiniowane przez interfejs (id notatki, którą zmieniamy, oraz nową notatkę, która zastąpi poprzednią). 'Nowa' notatka musi zachować swoje stare id. W przypadku braku podanego id na liście metoda powinna rzucać wyjątek NoSuchElementException.
 
-Napisz testy jednostkowe dla utworzonej w ten sposób metody. Powinny one obejmować takie przypadki jak:
+Napisz testy jednostkowe dla utworzonej w ten sposób metody. Powinny one obejmować 2 przypadki:
 + brak odpowiadającego obiektu na liście notes (czyli gdy id, którego szukamy, nie istnieje)
 + przypadek pozytywny (udało się zmodyfikować obiekt na liście)
 
