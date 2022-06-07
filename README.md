@@ -1,4 +1,4 @@
-# Organizeit-_Exercise
+# Organizeit_Exercise
 ## Zadanie 1
 Zaimplementuj metodę updateNote() w klasie NotelistController. Metoda powinna przyjmować argumenty zdefiniowane przez interfejs (id notatki, którą zmieniamy, oraz nową notatkę, która zastąpi poprzednią). 'Nowa' notatka musi zachować swoje stare id. W przypadku braku podanego id na liście metoda powinna rzucać wyjątek NoSuchElementException.
 
