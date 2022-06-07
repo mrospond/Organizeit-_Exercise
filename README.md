@@ -22,4 +22,4 @@ Zaimplementuj metodę updateStatus() w klasie ReoccurringTask. Powinna ona zmien
 - jeśli obecna data jest po dacie końcowej zadania, to powinno mieć ono status FINISHED.
 
 ## Zadanie 4
-Złośliwi programiści usunęli niektóre adnotacje z klasy SimpleTask. Napisz własną implementację wzorca Builder nie używając adnotacji lomboka.
+Złośliwi programiści usunęli kluczową adnotację z klasy SimpleTask. Napisz własną implementację wzorca Builder nie używając adnotacji lomboka.
