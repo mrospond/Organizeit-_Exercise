@@ -26,4 +26,4 @@ Zaimplementuj metodę updateStatus() w klasie ReoccurringTask. Powinna ona zmien
 Możesz zweryfikować poprawność działania napisanej metody za pomocą testów (opcjonalne).
 
 ## Zadanie 4
-Złośliwi programiści usunęli kluczową adnotację z klasy SimpleTask. Napisz własną implementację wzorca Builder nie używając adnotacji lomboka.
+Złośliwi programiści usunęli kluczową adnotację @Builder z klasy SimpleTask. Dodanie jej z powrotem byłoby za proste, dlatego napisz własną implementację wzorca Builder wewnątrz klasy SimpleTask, która pozwoli zastąpić jej działanie.
