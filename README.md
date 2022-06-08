@@ -13,7 +13,7 @@ Utwórz metodę tłumaczącą obiekt typu Task na mapę, którą można przekaza
 
 Możesz zweryfikować poprawność działania napisanej metody za pomocą testów (opcjonalne).
 
-hint: przydatna metoda w klasach enum: ordinal()
+hint: przydatna metoda w klasach enum: ordinal().
 
 ## Zadanie 3
 Zaimplementuj metodę updateStatus() w klasie ReoccurringTask. Powinna ona zmieniać status obiektu na podstawie obecnej daty w następujący sposób:
@@ -27,3 +27,5 @@ Możesz zweryfikować poprawność działania napisanej metody za pomocą testó
 
 ## Zadanie 4
 Złośliwi programiści usunęli kluczową adnotację @Builder z klasy SimpleTask. Dodanie jej z powrotem byłoby za proste, dlatego napisz własną implementację wzorca Builder wewnątrz klasy SimpleTask, która pozwoli zastąpić jej działanie.
+
+hint: w razie problemów zerknij do prezentacji.
