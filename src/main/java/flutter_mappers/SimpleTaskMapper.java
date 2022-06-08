@@ -14,8 +14,16 @@ import java.util.Map;
 public class SimpleTaskMapper implements TaskMapper<SimpleTask> {
     @Override
     public Map<String, String> taskToMap(SimpleTask task) {
-        // TODO: 08.06.2022 Zadanie 2
-        return null;
+        Map<String, String> map = new HashMap<>();
+
+        map.put("type", "simple");
+        map.put("title", task.getTitle());
+        map.put("topicName", task.getTopic().getName());
+        map.put("topicSubject", task.getTopic().getSubject());
+        map.put("date", task.getDate().toString());
+        map.put("status", String.valueOf(task.getStatus().ordinal()));
+
+        return map;
     }
 
     @Override
@@ -44,13 +52,11 @@ public class SimpleTaskMapper implements TaskMapper<SimpleTask> {
         });
         topic.setNotes(notes);
 
-        /* return SimpleTask.builder()
+        return SimpleTask.builder()
                 .title(title)
                 .topic(topic)
                 .date(date)
                 .status(status)
-                .build(); */
-        // TODO: 08.06.2022 Odkomentuj powyższy kod po zrobieniu zadania 4
-        return null;
+                .build();
     }
 }

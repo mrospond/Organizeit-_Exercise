@@ -4,6 +4,7 @@ import model.topic.Note;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 public class NoteListController implements AttachmentListController<Note> {
@@ -16,7 +17,16 @@ public class NoteListController implements AttachmentListController<Note> {
 
     @Override
     public void update(int id, Note newNote) {
-        // TODO: 08.06.2022 Zadanie 1 
+        for (int i = 0; i < notes.size(); i++) {
+            Note oldNote = notes.get(i);
+            if (oldNote.getId() == id) {
+                newNote.setTitle(oldNote.getTitle());
+                newNote.setTopic(oldNote.getTopic());
+                newNote.setDescription(oldNote.getDescription());
+                break;
+            }
+        }
+        throw new NoSuchElementException();
     }
 
     @Override

@@ -29,7 +29,21 @@ public class ReoccurringTask extends Task {
 
     @Override
     public void updateStatus() {
-        // TODO: 07.06.2022 Zadanie 3
+        LocalDate now = LocalDate.now();
+        if (now.isBefore(startDate)) {
+            setStatus(TaskStatus.SCHEDULED);
+        }
+        else if (!now.isBefore(startDate) && !now.isAfter(endDate)) {
+            if (daysOfWeek.contains(now.getDayOfWeek())) {
+                setStatus(TaskStatus.ACTIVE);
+            }
+            else {
+                setStatus(TaskStatus.SCHEDULED);
+            }
+        }
+        else {
+            setStatus(TaskStatus.FINISHED);
+        }
     }
 
     public String getDaysOfWeekString() {
