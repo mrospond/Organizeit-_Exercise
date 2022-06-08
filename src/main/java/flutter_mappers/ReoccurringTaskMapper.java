@@ -53,23 +53,6 @@ public class ReoccurringTaskMapper implements TaskMapper<ReoccurringTask> {
 
         Topic topic = new Topic(topicName, topicSubject);
 
-        List<Note> notes = new ArrayList<>();
-        map.forEach((name, noteContent) -> {
-            if (name.contains("note") ) {
-                int id = Integer.parseInt(name.substring(4));
-                String[] split = noteContent.split(";");
-                String noteTitle = split[0].substring(6);
-                String noteDescription = split[1].substring(12);
-
-                Note note = new Note(id, noteTitle, noteDescription);
-                note.setTopic(topic);
-
-                notes.add(note);
-            }
-        });
-
-        topic.setNotes(notes);
-
         return ReoccurringTask.builder()
                 .title(title)
                 .topic(topic)

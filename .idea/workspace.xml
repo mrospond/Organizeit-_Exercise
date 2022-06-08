@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba0decb-d9fb-4c93-90ac-05c018dfdd97" name="Changes" comment="Add uml diagram">
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/SimpleTaskListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/SimpleTaskListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/controllers/SimpleTaskListControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controllers/SimpleTaskListControllerTest.java" afterDir="false" />
+    <list default="true" id="fba0decb-d9fb-4c93-90ac-05c018dfdd97" name="Changes" comment="Remove comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flutter_mappers/ReoccurringTaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flutter_mappers/ReoccurringTaskMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654558014228</updated>
       <workItem from="1654558016369" duration="5813000" />
+      <workItem from="1654690289067" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor all classes">
       <created>1654558939380</created>
@@ -136,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654562579463</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove comments">
+      <created>1654688222568</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654688222568</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,12 +160,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor all classes" />
     <MESSAGE value="Add test class, add lombok dependency" />
     <MESSAGE value="Add lombok to the code" />
     <MESSAGE value="Add uml diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add uml diagram" />
+    <MESSAGE value="Remove comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove comments" />
   </component>
 </project>
