@@ -32,7 +32,6 @@ public class ReoccurringTaskMapper implements TaskMapper<ReoccurringTask> {
         List<Note> notes = topic.getNotes();
         for (Note note : notes) {
             String key = "note" + note.getId();
-            //note to self: make it impossible to type ';' into the title
             String content = "title:" + note.getTitle() + ";description:" + note.getDescription();
             map.put(key, content);
         }

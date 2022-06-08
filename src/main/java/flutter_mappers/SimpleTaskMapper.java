@@ -23,7 +23,7 @@ public class SimpleTaskMapper implements TaskMapper<SimpleTask> {
         String title = map.get("title");
         String topicName = map.get("topicName");
         String topicSubject = map.get("topicSubject");
-        LocalDate date = LocalDate.parse((String) map.get("date"));
+        LocalDate date = LocalDate.parse(map.get("date"));
         TaskStatus status = TaskStatus.values()[Integer.parseInt(map.get("status"))];
 
         Topic topic = new Topic(topicName, topicSubject);
